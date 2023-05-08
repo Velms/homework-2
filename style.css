@@ -1,0 +1,250 @@
+:root {
+    --navy-blue: #2E2F42;
+    --slate-text:#434455;
+    --base-wait-color: #ffffff;
+    --iris: #4D5AE5;
+    --cornflower:#E7E9FC;
+    --cloud:#f4f4fd;
+    --ocean:#404BBF;
+    
+
+}
+
+.list {
+list-style:none;
+}
+
+.link {
+text-decoration: none;  
+}
+
+.link:hover
+.link:focus {
+color: var(--iris);
+}
+
+.section-fo .list .elem {
+background-color:var(--base-wait-color);
+}
+.text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-text);
+}
+
+
+.name-sektion-two,
+.name-sektion-three,
+.name-sektion-fo {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue);
+}
+
+.section-fo {
+background-color:var(--cloud);
+}
+
+.span-logo {
+color: var(--cloud);
+}
+/* ---------------------------------- PAGE - HEADER ------------ */
+body {
+font-family: Roboto, sans-serif;
+color:var(--slate-text);
+background-color:var(--base-wait-color);
+}
+
+.logo {
+font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    text-decoration: none;
+}
+
+.logo>.span-logo-header{
+color: var(--navy-blue);
+}
+
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+.menu-link:hover,
+.menu-link:focus {
+color: var(--ocean);
+}
+
+.address {
+font-style: normal;
+} 
+
+
+.contact-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-text);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color:var(--ocean);
+}
+
+/* /////////////////  INDEX - HTML   //////////////////////// */
+
+.hero-image {
+background-color:var(--navy-blue);
+
+}
+
+.hero-imag-name {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--base-wait-color);
+
+}
+
+.btn {
+color: var(--base-wait-color);
+background-color: var(--iris);
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+background-color: var(--ocean); 
+}
+
+.name-sektion-two,
+.name-sektion-elem,
+.subname-fo {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.name-sektion-three,
+.name-sektion-fo {
+color:var(--navy-blue);
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+.elem {
+color:var(--base-wait-color)F;  
+}
+/* /////////////////// PORTFOLIO - HTML  ///////////////////// */
+
+.page-body {
+font-family: Roboto, sans-serif;
+color: var(--slate-text);
+background-color:var(--navy-blue);
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.btn-port {
+color: var(--iris);
+/* Button Text */
+background-color: var(--cloud);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+.btn-port:hover,
+.btn-port:focus {
+color: var(--base-wait-color);
+background-color: var(--ocean);    
+}
+
+.port-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-text);
+}
+.portfolio .elem {
+width: 360 ;
+height: 420;
+
+}
+.footer-site {
+background-color: var(--navy-blue);
+} 
+
+.footer .logo {
+    font-family:'Raleway', sans-serif;
+    color: var(--iris);
+    padding-left: 156px;
+    padding-top: 50px;
+    padding-bottom: 19px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}   
+
+.footer .logo:hover,
+.footer .logo:focus {
+color: var(---base-wait-color);
+}
+
+
+.span-logo {
+color: var(--cloud);
+}
+
+.span-logo:hover
+.span-logo:focus {
+color: var(--iris);
+}
+
+.footer-text {
+color:var(--cornflower);
+font-size:16px;
+line-height:1.17;
+letter-spacing: 0.02em;      
+}
